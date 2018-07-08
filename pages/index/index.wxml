@@ -1,0 +1,4 @@
+<view>
+    <view class="p_button" catchtap="showModal">父级按钮：展示蒙层</view>
+    <component-mask id="componentMask"/>
+</view>

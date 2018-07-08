@@ -1,0 +1,8 @@
+<view class="container">
+    <view class="button" catchtap="showModal">组件按钮： 展示蒙层</view>
+    <view animation="{{maskAnimationData}}" class="'masker-d' {{showMask ? ' ' : 'dsn'}}"></view>
+    <view animation="{{adAnimationData}}" class="'masker' {{showMask ? '' : 'dsn'}}">
+        <image class="'ad-content ad-ticket' {{showMask ? '' : 'dsn'}}" src="/img/mask/ad_content.png"></image>
+        <image catchtap="hideModal" class="'ad-content-close' {{showMask ? '' : 'dsn'}}" src="/img/mask/close.png"></image>
+    </view>
+</view>
