@@ -1,5 +1,4 @@
 
-
 ### 1. 蒙层：
 
 > #### components/mask/mask
@@ -10,4 +9,4 @@
 
 #### 效果如下：
 
-<image src="./gif/mask.gif"></image>
+<image src="./mask.gif"></image>
